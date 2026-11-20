@@ -1,0 +1,15 @@
+{
+  "logical_cpu": 0,
+  "threads": 1,
+  "rows": 60000,
+  "repeats": 3,
+  "seconds": [
+    1.8661371999769472,
+    1.8272697000065818,
+    1.8236630999599583
+  ],
+  "median_microseconds_per_row": 30.4544950001097,
+  "includes": "callback, history, ONNX and return copy; excludes IO/startup/point creation",
+  "server_runtime_historical_seconds": 3281,
+  "note": "Local timings do not establish runtime on another CPU or dataset."
+}

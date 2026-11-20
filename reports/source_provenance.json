@@ -1,0 +1,50 @@
+{
+  "supervised_ae_mlp.py": {
+    "original_sha256": "ea98873135054a5c2c33afc42eda88135876d4c8e63124b310c3c81ef61676cb",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "mlp_experiment.py": {
+    "original_sha256": "115e945e905a155849320a33f1879ef1edad52e773895cb31919b13c57d29f80",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "train_gru_fold.py": {
+    "original_sha256": "f11377932ea33706015e9294dedd6697eca4b8c21b25aac21a475090fa00062a",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "train_gru_mse_fold.py": {
+    "original_sha256": "2fe97e1b44754b1d825ec6298da0a738c556605e1c16ceb588df8d5fa55865e8",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "train_gru_mse_ema_fold.py": {
+    "original_sha256": "12f3ecac6e2279f57451f9daad53bac806973b76bfa08dc1131a515c9113b8d9",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "gru_mlp_head.py": {
+    "original_sha256": "2399613d884e96ad51c1c26227f4ecfc6c4f1df8622471653981bb634f5ab7c8",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "utils.py": {
+    "original_sha256": "24022b8f80d0cd87c7d979c1b65630dbaa32e78354e8e4926afb42b601c50125",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "run_with_cuda_init.py": {
+    "original_sha256": "7cdc3f1ffe77af708b66700e8a564ec16ff04b22d226ecf561c1b8a7130ae7dc",
+    "change": "project root points one directory above src; training math unchanged"
+  },
+  "gru_full": {
+    "source": "checkpoints/gru_full10607_seed20260928_finetune1_lr0001/epoch_05.pt",
+    "source_sha256": "22c4e9e14038f6e681a2626f2a60356c03c01445321bd636be050480792e5785",
+    "release": "weights/gru_full.pt",
+    "note": "All model tensors retained; optimizer, RNG and machine-specific paths omitted."
+  },
+  "ae20": {
+    "source": "checkpoints/ae_mlp_history_decoder_aux_plateau_fold0_20epochs/best.pt",
+    "source_sha256": "bb6f2138c90d61b879f266a2f271bf6fd9e203b9dd88bca6f47a4b2505fe82fa",
+    "release": "weights/ae20.pt",
+    "note": "All model tensors retained; optimizer, RNG and machine-specific paths omitted."
+  },
+  "train_full.py": {
+    "original_sha256": "ac9fef788977d32aa6743cce1a9adef35a963080ad051ea7d7b1bd8416ae378a",
+    "change": "Preserved the fixed training, checkpoint and resume functions; replaced historical experiment dependencies with a portable entry point."
+  }
+}

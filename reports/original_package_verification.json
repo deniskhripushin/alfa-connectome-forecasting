@@ -1,0 +1,46 @@
+{
+  "zip": "$WORKSPACE\\gru_full10607_seed20260928_ae20_70_65_native_history_fp32_submission_20261020.zip",
+  "zip_sha256": "0180f2b526a09df9c7f74638abda455090a7e1efe4eafbbe8438f8b98b37ca51",
+  "bytes": 1419011,
+  "files": {
+    "solution.py": "61fffeb780ee851071e4de24fb3e3125000faab4ce918f398261f1fa5b996474",
+    "base_runtime.py": "dc05470948614c7b52bd26e35e3290503b8f81ce5569f72d64273ed65767376f",
+    "model.onnx": "0aa9c740767a9c610d554000ec00f5565270093376d46d3274712a33de042218",
+    "normalization.npz": "e7eab30f120f28217c8046743207a6a3e83face1b6f23627cbda245b8d2df319",
+    "history_windows.dll": "f42866ddfcc82880a95a6f06daa8fee20478e3cb3c56f7de4e4284d3944690e0",
+    "history_linux.so": "a98b384251bca965d3fc86f2221c584916fcc1470cbf59cd6812ff863cd994a0",
+    "history.c": "8402b8c626f7b60b4c33215fcd5878d6f546738e4556d39bbf14a195329f3ba6"
+  },
+  "verification": "$WORKSPACE\\full_gru_native_build_20261020\\verification_native.json",
+  "verification_sha256": "3ebee33e7ef53652b4d89cfc78de2fa4329c687e471b5f746d29b684b9d9e382",
+  "verification_script_sha256": "059412acc1966fd9b8235d714d6dfaef2e148cb85e6a17c77e039c778113d9b2",
+  "packager_sha256": "59f67ca553e9422c08e3801449e6f17612218bfa4bb555fc100d9278a6fb1cab",
+  "isolated_archive_tests_passed": true,
+  "isolated_test_output": "test_history_boundaries (__main__.DeploymentTests.test_history_boundaries) ... ok\ntest_invalid_inputs (__main__.DeploymentTests.test_invalid_inputs) ... ok\ntest_invalid_order (__main__.DeploymentTests.test_invalid_order) ... ok\ntest_output_ownership (__main__.DeploymentTests.test_output_ownership) ... ok\ntest_runtime_contract (__main__.DeploymentTests.test_runtime_contract) ... ok\ntest_warmup_reset_replay (__main__.DeploymentTests.test_warmup_reset_replay) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.143s\n\nOK\n",
+  "exact_predictions_hidden_history": true,
+  "callbacks": 120256,
+  "native_previous_time_ratio": 0.7931588657916007,
+  "local_reduction_percent": 20.684113420839935,
+  "float32_model_unchanged": true,
+  "ae20_unchanged": true,
+  "gru_shares": [
+    0.7,
+    0.65
+  ],
+  "protected_06544_unchanged": true,
+  "linux_elf_checks": {
+    "format": "ELF64 x86_64",
+    "needed": [],
+    "undefined": [],
+    "executable_stack": false,
+    "exports": [
+      "history_version",
+      "history_step"
+    ],
+    "execution_tested": false
+  },
+  "linux_executed": false,
+  "server_runtime_confirmed": false,
+  "uploaded": false,
+  "note": "Only causal-history preprocessing changed. Model and normalization are byte-identical. Linux module is cross-compiled for baseline x86_64 without libc dependencies. Local Windows timings do not guarantee server completion."
+}

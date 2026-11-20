@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "train_sequences": 2,
+  "gru_base_epochs": 4,
+  "gru_finetune_epochs": 1,
+  "checkpoint_resume_and_completed_noop": true,
+  "ae_optimizer_updates": 1,
+  "ae_all_four_parameter_groups_changed": true,
+  "ae_losses": {
+    "total": 2.372345209121704,
+    "main_wmse": 1.8278563022613525,
+    "aux_wmse": 1.874297022819519,
+    "reconstruction_mse": 0.7591454386711121,
+    "main_correlation_loss": 0.0
+  },
+  "note": "Pipeline smoke on two training sequences, not full retraining; no release weights modified."
+}

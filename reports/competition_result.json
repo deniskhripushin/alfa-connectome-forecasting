@@ -1,0 +1,13 @@
+{
+  "final_place": 646,
+  "participants": 5800,
+  "rank_source": "User-reported final standing, 2026-11-16",
+  "best_known_public_wp": 0.6549,
+  "private_score": null,
+  "server_runtime_seconds": 3281,
+  "server_memory_mb": 627,
+  "server_source": "User-provided scored-submission screenshot dated 2026-10-20",
+  "official_validation_wp": 0.6828520974227685,
+  "official_validation_rows": 3528273,
+  "archive_sha256": "0180f2b526a09df9c7f74638abda455090a7e1efe4eafbbe8438f8b98b37ca51"
+}

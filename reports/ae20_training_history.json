@@ -1,0 +1,562 @@
+[
+  {
+    "epoch": 1,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.8929194844324024,
+      "main_wmse": 1.4692717753934663,
+      "aux_wmse": 1.4647286752286066,
+      "reconstruction_mse": 0.5746554068698557
+    },
+    "validation": {
+      "t0": 0.40077460852001384,
+      "t1": 0.41594451010078454,
+      "weighted_pearson": 0.4083595593103992,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 2,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.8284666927969309,
+      "main_wmse": 1.4190304280732333,
+      "aux_wmse": 1.4186540993649466,
+      "reconstruction_mse": 0.5477274119748603
+    },
+    "validation": {
+      "t0": 0.4123588188466672,
+      "t1": 0.4246409663483663,
+      "weighted_pearson": 0.41849989259751674,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 3,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.8087070924784763,
+      "main_wmse": 1.4057387223859077,
+      "aux_wmse": 1.4081139982062785,
+      "reconstruction_mse": 0.5093987245171928
+    },
+    "validation": {
+      "t0": 0.4179449711946346,
+      "t1": 0.42964645355469244,
+      "weighted_pearson": 0.4237957123746635,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 4,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7942514635354685,
+      "main_wmse": 1.397736271985784,
+      "aux_wmse": 1.4020521590480681,
+      "reconstruction_mse": 0.46002152748647407
+    },
+    "validation": {
+      "t0": 0.41979083023300684,
+      "t1": 0.43101694483203573,
+      "weighted_pearson": 0.4254038875325213,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 5,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.78725644551661,
+      "main_wmse": 1.395270752386971,
+      "aux_wmse": 1.4013295413047058,
+      "reconstruction_mse": 0.41653308667501565
+    },
+    "validation": {
+      "t0": 0.42272662505439307,
+      "t1": 0.4321055039699665,
+      "weighted_pearson": 0.4274160645121798,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 6,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7779126813570472,
+      "main_wmse": 1.3902013057670526,
+      "aux_wmse": 1.3967529930784621,
+      "reconstruction_mse": 0.3852312938845291
+    },
+    "validation": {
+      "t0": 0.42272032806742954,
+      "t1": 0.4347842816435063,
+      "weighted_pearson": 0.4287523048554679,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 7,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7719173416785092,
+      "main_wmse": 1.3867612892132897,
+      "aux_wmse": 1.3949544346325526,
+      "reconstruction_mse": 0.36417443940550986
+    },
+    "validation": {
+      "t0": 0.42623458079045773,
+      "t1": 0.4354579764671957,
+      "weighted_pearson": 0.43084627862882674,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 8,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.767447800262577,
+      "main_wmse": 1.3841777551996055,
+      "aux_wmse": 1.3930068616243272,
+      "reconstruction_mse": 0.35018329249456764
+    },
+    "validation": {
+      "t0": 0.4272364007606138,
+      "t1": 0.4373858919155578,
+      "weighted_pearson": 0.4323111463380858,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 9,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 1,
+    "losses": {
+      "total": 1.7637853883193673,
+      "main_wmse": 1.3822998851063537,
+      "aux_wmse": 1.3908744297803115,
+      "reconstruction_mse": 0.33766896009585684
+    },
+    "validation": {
+      "t0": 0.4260401706265025,
+      "t1": 0.4367284782212797,
+      "weighted_pearson": 0.4313843244238911,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 10,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7565176751940967,
+      "main_wmse": 1.377269652203103,
+      "aux_wmse": 1.3859579612313824,
+      "reconstruction_mse": 0.3275853606343761
+    },
+    "validation": {
+      "t0": 0.4287061492395719,
+      "t1": 0.43730295262717006,
+      "weighted_pearson": 0.433004550933371,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 11,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7516252481733692,
+      "main_wmse": 1.3737526723898785,
+      "aux_wmse": 1.3837333072264475,
+      "reconstruction_mse": 0.3193924864812254
+    },
+    "validation": {
+      "t0": 0.42921447910174354,
+      "t1": 0.4375477434198783,
+      "weighted_pearson": 0.4333811112608109,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 12,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7502814311452943,
+      "main_wmse": 1.3729473581016238,
+      "aux_wmse": 1.3840723204064804,
+      "reconstruction_mse": 0.31315989742998385
+    },
+    "validation": {
+      "t0": 0.4294499457437296,
+      "t1": 0.4373562759740784,
+      "weighted_pearson": 0.433403110858904,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 13,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 1,
+    "losses": {
+      "total": 1.7481879847430453,
+      "main_wmse": 1.3717403570904616,
+      "aux_wmse": 1.3828110569002492,
+      "reconstruction_mse": 0.30744864937833427
+    },
+    "validation": {
+      "t0": 0.42864563527058097,
+      "t1": 0.43679265343495766,
+      "weighted_pearson": 0.4327191443527693,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 14,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.746345354348825,
+      "main_wmse": 1.3705418236619527,
+      "aux_wmse": 1.3823370948706084,
+      "reconstruction_mse": 0.3021925738648801
+    },
+    "validation": {
+      "t0": 0.4301994607594739,
+      "t1": 0.4391225317893602,
+      "weighted_pearson": 0.43466099627441707,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 15,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 1,
+    "losses": {
+      "total": 1.7425026902045373,
+      "main_wmse": 1.3677839544427768,
+      "aux_wmse": 1.3798803878518926,
+      "reconstruction_mse": 0.297486362755123
+    },
+    "validation": {
+      "t0": 0.42851452931202655,
+      "t1": 0.43861728195005467,
+      "weighted_pearson": 0.4335659056310406,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 16,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.0003,
+    "lr_reduced": false,
+    "early_stopping_stale": 2,
+    "losses": {
+      "total": 1.7368063702468108,
+      "main_wmse": 1.3634134874248336,
+      "aux_wmse": 1.3762630942574514,
+      "reconstruction_mse": 0.29327108875470226
+    },
+    "validation": {
+      "t0": 0.4278663390221994,
+      "t1": 0.4368207581752094,
+      "weighted_pearson": 0.4323435485987044,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 17,
+    "learning_rate": 0.0003,
+    "next_learning_rate": 0.00015,
+    "lr_reduced": true,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.735606815931582,
+      "main_wmse": 1.3626173670740076,
+      "aux_wmse": 1.3758086045770415,
+      "reconstruction_mse": 0.2903729658514595
+    },
+    "validation": {
+      "t0": 0.4293232959930405,
+      "t1": 0.4360369678021908,
+      "weighted_pearson": 0.43268013189761567,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 18,
+    "learning_rate": 0.00015,
+    "next_learning_rate": 0.00015,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7275993497777702,
+      "main_wmse": 1.356624534935128,
+      "aux_wmse": 1.3697229473606305,
+      "reconstruction_mse": 0.28544077072413304
+    },
+    "validation": {
+      "t0": 0.4323181139489948,
+      "t1": 0.4393248627941233,
+      "weighted_pearson": 0.43582148837155904,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 19,
+    "learning_rate": 0.00015,
+    "next_learning_rate": 0.00015,
+    "lr_reduced": false,
+    "early_stopping_stale": 1,
+    "losses": {
+      "total": 1.7224303014572044,
+      "main_wmse": 1.3525829269103464,
+      "aux_wmse": 1.3662051173891823,
+      "reconstruction_mse": 0.2829609520728966
+    },
+    "validation": {
+      "t0": 0.43172895665095024,
+      "t1": 0.43926190654019925,
+      "weighted_pearson": 0.43549543159557474,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  },
+  {
+    "epoch": 20,
+    "learning_rate": 0.00015,
+    "next_learning_rate": 0.00015,
+    "lr_reduced": false,
+    "early_stopping_stale": 0,
+    "losses": {
+      "total": 1.7186962747545753,
+      "main_wmse": 1.3497381584041597,
+      "aux_wmse": 1.3634199044110147,
+      "reconstruction_mse": 0.28103144792647805
+    },
+    "validation": {
+      "t0": 0.432415044382925,
+      "t1": 0.44108011224220256,
+      "weighted_pearson": 0.4367475783125638,
+      "blocks": 2122,
+      "blocks_with_scored_rows": 2122,
+      "selected_rows": 42229922,
+      "effective_scored_rows": 42229922,
+      "metric_clip": [
+        -2.0,
+        2.0
+      ],
+      "metric_specification": "global_wp",
+      "aggregation": "mean of two target-wise global clipped Weighted Pearson correlations over all masked rows"
+    }
+  }
+]

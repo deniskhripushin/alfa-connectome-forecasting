@@ -1,0 +1,14 @@
+{
+  "unit_tests": 3,
+  "unit_tests_passed": true,
+  "exported_best_onnx_byte_identical": true,
+  "archive_contents_verified": true,
+  "full_training_rerun": false,
+  "full_validation_rerun": false,
+  "local_platform": "Windows x86-64",
+  "training_device": "NVIDIA RTX 5060 CUDA",
+  "real_parity_callbacks": 60256,
+  "cpu_benchmark_rows": 60000,
+  "cpu_benchmark_repeats": 3,
+  "portable_training_smoke_passed": true
+}

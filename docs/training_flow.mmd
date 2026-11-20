@@ -1,0 +1,30 @@
+flowchart TB
+    D[train.parquet: 10 607 sequences] --> S[Original fold 0: train 8485 / holdout 2122]
+    S --> N[Frozen mean/std: 256 fold-train sequences]
+    S --> F[Fold experiments select GRU recipe]
+    D --> G0[Fresh full-data GRU: seed 20260928]
+    N --> G0
+    F -. fixed recipe .-> G0
+    G0 --> G4[4 epochs LR 0.0003; WMSE; AdamW; EMA 0.999]
+    G4 --> E4[EMA checkpoint epoch 4]
+    E4 --> G5[Fresh optimizer/scaler/EMA/RNG; 1 epoch LR 0.0001]
+    G5 --> E5[Final full-data GRU EMA epoch 5]
+    S --> AT[AE training: only 8485; holdout 2122 for selection]
+    N --> H[History 560: z, delta1, delta20, z-EMA20, z-EMA100]
+    AT --> H
+    H --> NO[Encoder-only noise std 0.03]
+    NO --> EN[Encoder: 560 → 128 → 64]
+    H --> CAT[Concatenate clean 560 + latent 64]
+    EN --> CAT
+    CAT --> M[MLP: 624 → 128 → 64 → 2; 2*tanh]
+    EN --> DEC[Decoder: 64 → 128 → 560]
+    DEC --> AUX[Auxiliary head: 560 → 2; 2*tanh]
+    M --> L[Main WMSE + 0.25 aux WMSE + 0.1 reconstruction MSE]
+    DEC --> L
+    AUX --> L
+    L --> A20[AE20: plateau LR; best holdout checkpoint epoch 20]
+    E5 --> B[Inference blend: t0 70/30; t1 65/35]
+    A20 --> B
+    B --> O[FP32 ONNX; C history; one CPU; decoder/auxiliary removed]
+    O --> V[Official validation: 1873 separate sequences; no gradient training]
+    O --> Z[Selected server ZIP: Public WP 0.65490]

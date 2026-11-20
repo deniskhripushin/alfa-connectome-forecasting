@@ -1,0 +1,10 @@
+# Preserve exact release bytes across platforms: MANIFEST.json hashes all files.
+# In particular, the unpacked submission must match the original scored ZIP.
+* -text
+*.pt binary
+*.onnx binary
+*.npz binary
+*.zip binary
+*.dll binary
+*.so binary
+*.png binary

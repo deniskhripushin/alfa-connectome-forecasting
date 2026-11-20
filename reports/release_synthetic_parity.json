@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "callbacks": 2304,
+  "exact_native_vs_numpy": true,
+  "max_abs_error_vs_pytorch": {
+    "prediction": 4.917383193969727e-07,
+    "hidden": 1.043081283569336e-06,
+    "history": 0.0
+  },
+  "data": "synthetic + reset replay",
+  "source": "$PROJECT\\submission",
+  "note": "Sampled parity; not a rerun of full official validation."
+}

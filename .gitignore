@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+datasets/*
+!datasets/README.md
+runs/
+*.partial
+*.tmp
+LOCAL_CLEANUP_PATHS.txt
+LOCAL_CLEANUP_INVENTORY.json
