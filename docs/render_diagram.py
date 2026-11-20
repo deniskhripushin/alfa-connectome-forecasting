@@ -34,7 +34,7 @@ def arrow(points,color='#64748b'):
     svg.append(f'<polygon points="{" ".join(f"{x},{y}" for x,y in tri)}" fill="{color}"/>')
 
 text(65,65,'ALFA CONNECTOME · ОБУЧЕНИЕ И ИНФЕРЕНС',36,True,center=False)
-text(65,109,'Выбранное решение: 1 GRU + AE/MLP · Public WP 0.65490 · 646 / 5800',24,center=False,color='#52627b')
+text(65,109,'Выбранное решение: 1 GRU + AE/MLP · Public WP 0.66357 · 547 / 5841',24,center=False,color='#52627b')
 box(365,155,870,100,['train.parquet: 10 607 × 20 000 строк','Исходный fold: 8 485 train + 2 122 holdout'],fill='#e7eefb')
 arrow([(800,255),(800,285)])
 box(365,285,870,90,['Одна зафиксированная нормализация','mean/std по 256 последовательностям fold-train; clip ±10'],size=22)
