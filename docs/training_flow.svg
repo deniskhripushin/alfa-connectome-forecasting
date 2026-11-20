@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2070" viewBox="0 0 1600 2070">
 <rect width="100%" height="100%" fill="#f5f7fb"/>
 <text x="65" y="65" fill="#1e293b" font-family="Arial,DejaVu Sans,sans-serif" font-size="36" font-weight="700" text-anchor="start" dominant-baseline="central">ALFA CONNECTOME · ОБУЧЕНИЕ И ИНФЕРЕНС</text>
-<text x="65" y="109" fill="#52627b" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="central">Выбранное решение: 1 GRU + AE/MLP · Public WP 0.65490 · 646 / 5800</text>
+<text x="65" y="109" fill="#52627b" font-family="Arial,DejaVu Sans,sans-serif" font-size="24" font-weight="400" text-anchor="start" dominant-baseline="central">Выбранное решение: 1 GRU + AE/MLP · Public WP 0.66357 · 547 / 5841</text>
 <rect x="365" y="155" width="870" height="100" rx="15" fill="#e7eefb" stroke="#d2dbe8" stroke-width="2"/>
 <text x="800.0" y="189.0" fill="#1e293b" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="central">train.parquet: 10 607 × 20 000 строк</text>
 <text x="800.0" y="221.0" fill="#1e293b" font-family="Arial,DejaVu Sans,sans-serif" font-size="22" font-weight="400" text-anchor="middle" dominant-baseline="central">Исходный fold: 8 485 train + 2 122 holdout</text>
